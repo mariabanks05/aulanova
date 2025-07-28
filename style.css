@@ -36,10 +36,11 @@ h1 {
 .foto-perfil {
     width: 250px;
     height: 250px;
-    border-radius: 50%;
     object-fit: cover;
     border: 5px solid #333;
     margin-bottom: 20px;
+    /* Removido border-radius para ficar quadrado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .nome {
